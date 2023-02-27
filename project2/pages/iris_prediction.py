@@ -28,9 +28,9 @@ Give it a try""")
 st.header("User Input Parameters")
 
 def user_input():
-    SepalLengthCm=st.slider("sepal lenght",4.3,7.9,5.4)
+    SepalLengthCm=st.slider("sepal length",4.3,7.9,5.4)
     SepalWidthCm=st.slider("sepal width",2.0,4.4,3.4)
-    PetalLengthCm=st.slider("petal lenght",1.0,6.9,1.3)
+    PetalLengthCm=st.slider("petal length",1.0,6.9,1.3)
     PetalWidthCm=st.slider("petal width",0.1,2.5,0.2)
 
     data={"SepalLengthCm":SepalLengthCm,
