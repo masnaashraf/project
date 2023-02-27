@@ -33,10 +33,10 @@ def user_input():
     PetalLengthCm=st.slider("petal lenght",1.0,6.9,1.3)
     PetalWidthCm=st.slider("petal width",0.1,2.5,0.2)
 
-    data={"sepal_length":SepalLengthCm,
-          "sepal_width":SepalWidthCm,
-          "petal_length":PetalLengthCm,
-          "petal_width":PetalWidthCm
+    data={"SepalLengthCm":SepalLengthCm,
+          "SepalWidthCm":SepalWidthCm,
+          "PetalLengthCm":PetalLengthCm,
+          "PetalWidthCm":PetalWidthCm
           }
     features=pd.DataFrame(data,index=[0])
     return features
